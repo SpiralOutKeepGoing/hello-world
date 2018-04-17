@@ -1,0 +1,95 @@
+body{
+	font-family: "Arimo", sans-serif;
+	background-color: #ffffff;
+}
+
+header, footer {
+	background-color: #D2D2D2;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+aside {
+	background-color: #ececec;
+	text-align: center;
+	padding-top: 40px;
+}
+
+article {
+	padding: 40px;
+}
+
+article img {
+	width: 100%;
+	height: 100%;
+	max-width: 720px;
+	max-height: 720px;
+	text-align: center;
+	box-shadow: 6px 6px 8px #888;
+	margin-bottom: 20px;
+}
+
+article p {
+	font-size: 2em;
+}
+
+.page-select {
+	color: #00468b;
+}
+
+.page-list {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.page-list h4 {
+	margin-bottom: 40px;
+	color: #f26924;
+	font-weight: bold;
+}
+
+.page-list img {
+	width: 100%;
+	height: 100%;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.outside-list {
+	background-color: #d2d2d2;
+	padding-bottom: 40px;
+}
+
+.outside-list a {
+	color: white;
+}
+
+.outside-list a h5 {
+	margin-top: 5px;
+	margin-bottom: 14px;
+}
+
+.outside-list img {
+	width: 120px;
+	height: 120px;
+	margin: 5px;
+}
+
+@media (max-width: 767px) {
+
+	.outside-list h5 {
+		display: inline;
+	}
+
+	.outside-list a {
+		display: block;
+	}
+
+	.outside-list img {
+		width: 25%;
+		height: 25%;
+		margin: 10px 10px 30px 0px;
+	}
+
+}
