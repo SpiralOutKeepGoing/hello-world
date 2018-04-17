@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The LLAMA Fantasy Consortium</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scale=no">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+	<link href="../../content/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../../content/css/app.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<header class="container-fluid">
+		<h1>The LLAMA Fantasy Consortium</h1>
+	</header>
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<aside class="col-sm-1">
+				<h2 class="page-select">
+					<strong>Where to?</strong>
+				</h2>
+
+				<div class="page-list">
+
+					<a href="">
+						<img src="../../images/full1.jpg" />
+						<h4>InsidePLACE1</h4>
+					</a>
+
+				</div>
+
+				<div class="page-list">
+
+					<a href="">
+						<img src="../../images/full3.jpg" />
+						<h4>InsidePLACE2</h4>
+					</a>
+
+				</div>
+
+				<div class="page-list">
+
+					<a href="">
+						<img src="../../images/full2.jpg" />
+						<h4>InsidePLACE3</h4>
+					</a>
+
+				</div>
+
+				<div class="page-list">
+
+					<a href="">
+						<img src="../../images/border2.jpg" />
+						<h4>InsidePLACE4</h4>
+					</a>
+
+				</div>
+
+			</aside>
+
+			<section class="col-sm-8">
+
+				<article>
+					<h2>What is The LFC?</h2>
+					<img src="../../images/kane.jpg" />
+					<div class="row">
+						<p class="col-sm-10">
+							Shut up and take my money! Switzerland is small and neutral! We are more like Germany, ambitious and misunderstood! No, she'll probably make me do it. Are you crazy? I can't swallow that.
+						</p>
+						<div class="col-sm-2">
+							<input type="button" class="btn btn-primary" value="Learn More" />
+						</div>
+					</div>
+				</article>
+
+				<article>
+					<h2>Who runs The LFC?</h2>
+					<img src="../../images/king.jpg" />
+					<div class="row">
+						<p class="col-sm-10">
+							Guards! Bring me the forms I need to fill out to have her taken away! That could be 'my' beautiful soul sitting naked on a couch. If I could just learn to play this stupid thing. I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.
+						</p>
+						<div class="col-sm-2">
+							<input type="button" class="btn btn-primary" value="Learn More" />
+						</div>
+					</div>
+				</article>
+
+				<article>
+					<h2>How can I get involved?</h2>
+					<img src="../../images/fight.jpg" />
+					<div class="row">
+						<p class="col-sm-10">
+							When the lights go out, it's nobody's business what goes on between two consenting adults. Hello, little man. I will destroy you! Michelle, I don't regret this, but I both rue and lament it. I guess because my parents keep telling me to be more ladylike. As though!
+						</p>
+						<div class="col-sm-2">
+							<input type="button" class="btn btn-primary" value="Learn More" />
+						</div>
+					</div>
+				</article>
+
+			</section>
+
+			<aside class="col-sm-3 outside-list">
+
+				<a href="https://www.nhl.com" target="_blank">
+					<img src="../../images/nhl-app-logo.png" alt="NHL Home Page" />
+					<h5>NHL.com</h5>
+				</a>
+
+				<a href="https://www.nhl.com/fans/fantasy" target="_blank">
+					<img src="../../images/NHLlogo.jpg" alt="NHL Fantasy Page" />
+					<h5>Fantasy @ NHL.com</h5>
+				</a>
+
+				<a href="https://hockey.fantasysports.yahoo.com/" target="_blank">
+					<img src="../../images/Yahoo.png" alt="Yahoo Fantasy Hockey Main Page" />
+					<h5>Fantasy @ Yahoo.com</h5>
+				</a>
+
+				<a href="https://www.dailyfaceoff.com/teams/" target="_blank">
+					<img src="../../images/dailyfaceoff.png" alt="Daily Faceoff Line Combinations Home Page" />
+					<h5>Daily Faceoff Line Combinations</h5>
+				</a>
+
+				<a href="https://www.rotowire.com/hockey/" target="_blank">
+					<img src="../../images/rotologo.jpg" alt="RotoWire Home Page" />
+					<h5>RotoWire Hockey</h5>
+				</a>
+
+			</aside>
+
+		</div>
+
+	</div>
+
+	<footer class="container-fluid">
+		<h1>Footer</h1>
+	</footer>
+
+</body>
+</html>
