@@ -8,17 +8,17 @@
 	<link href="../../content/css/app.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="fill-screen fixed-attachment" style="background-image: url(../../images/fog.jpg)">
 
 	<header class="container-fluid">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg fixed-top nav-style cbp-af-header">
 			<a class="navbar-brand" href="#"><h1>The LLAMA Fantasy Consortium</h1></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
@@ -40,64 +40,21 @@
 				</ul>
 				<form class="form-inline my-2 my-lg-0">
 					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
 				</form>
 			</div>
 		</nav>
 	</header>
 
-	<div class="container-fluid">
+	<div class="container-fluid center-column">
 
 		<div class="row">
 
-			<aside class="col-sm-1">
-				<h2 class="page-select">
-					<strong>Where to?</strong>
-				</h2>
-
-				<div class="page-list">
-
-					<a href="">
-						<img src="../../images/full1.jpg" />
-						<h4>InsidePLACE1</h4>
-					</a>
-
-				</div>
-
-				<div class="page-list">
-
-					<a href="">
-						<img src="../../images/full3.jpg" />
-						<h4>InsidePLACE2</h4>
-					</a>
-
-				</div>
-
-				<div class="page-list">
-
-					<a href="">
-						<img src="../../images/full2.jpg" />
-						<h4>InsidePLACE3</h4>
-					</a>
-
-				</div>
-
-				<div class="page-list">
-
-					<a href="">
-						<img src="../../images/border2.jpg" />
-						<h4>InsidePLACE4</h4>
-					</a>
-
-				</div>
-
-			</aside>
-
-			<section class="col-sm-8">
+			<section class="col-sm-9 no-pads sec-bg fixed-attachment" style="background-image: url(../../images/kane.jpg">
 
 				<article>
 					<h2>What is The LFC?</h2>
-					<img src="../../images/kane.jpg" />
+				<!--	<img src="../../images/kane.jpg" /> -->
 					<div class="row">
 						<p class="col-sm-10">
 							Shut up and take my money! Switzerland is small and neutral! We are more like Germany, ambitious and misunderstood! No, she'll probably make me do it. Are you crazy? I can't swallow that.
@@ -108,9 +65,37 @@
 					</div>
 				</article>
 
-				<article>
+			</section>
+
+			<aside class="col-sm-3 outside-list">
+
+				<a href="https://www.nhl.com" target="_blank">
+					<img src="../../images/nhl-app-logo.png" alt="NHL Home Page" />
+					<h5>NHL.com</h5>
+				</a>
+
+				<a href="https://www.nhl.com/fans/fantasy" target="_blank">
+					<img src="../../images/NHLlogo.jpg" alt="NHL Fantasy Page" />
+					<h5>Fantasy @ NHL.com</h5>
+				</a>
+
+			</aside>
+
+		</div>
+
+		<div class="row">
+			<div class="container-fluid score">
+				<iframe src="https://scorestream.com/widgets/scoreboards/horz?userWidgetId=22548" style="padding:0px;border:0px;width:100%;max-width:100%;height:100%;max-height:100%;" title="Realtime sports scoreboard widget" scrolling="no" frameBorder="0"></iframe>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<section class="col-sm-9 no-pads">
+
+				<article class="sec-bg fixed-attachment" style="background-image: url(../../images/king.jpg"">
 					<h2>Who runs The LFC?</h2>
-					<img src="../../images/king.jpg" />
+		<!--			<img src="../../images/king.jpg" /> -->
 					<div class="row">
 						<p class="col-sm-10">
 							Guards! Bring me the forms I need to fill out to have her taken away! That could be 'my' beautiful soul sitting naked on a couch. If I could just learn to play this stupid thing. I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.
@@ -138,16 +123,6 @@
 
 			<aside class="col-sm-3 outside-list">
 
-				<a href="https://www.nhl.com" target="_blank">
-					<img src="../../images/nhl-app-logo.png" alt="NHL Home Page" />
-					<h5>NHL.com</h5>
-				</a>
-
-				<a href="https://www.nhl.com/fans/fantasy" target="_blank">
-					<img src="../../images/NHLlogo.jpg" alt="NHL Fantasy Page" />
-					<h5>Fantasy @ NHL.com</h5>
-				</a>
-
 				<a href="https://hockey.fantasysports.yahoo.com/" target="_blank">
 					<img src="../../images/Yahoo.png" alt="Yahoo Fantasy Hockey Main Page" />
 					<h5>Fantasy @ Yahoo.com</h5>
@@ -172,6 +147,18 @@
 	<footer class="container-fluid">
 		<h1>Footer</h1>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="../../content/js/bootstrap.min.js"></script>
+	<script src="../../content/js/classie.js"></script>
+	<script src="../../content/js/cbpAnimatedHeader.js"></script>
+	<script>
+		$(function () {
+			$(window).on("load resize", function () {
+				$(".fill-screen").css("height", window.innerHeight);
+			});
+		});
+	</script>
 
 </body>
 </html>
